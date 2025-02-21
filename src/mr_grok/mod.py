@@ -6,7 +6,7 @@ from openai import AsyncOpenAI
 import json
 
 client = AsyncOpenAI(
-    api_key=XAI_API_KEY,
+    api_key=os.environ.get("XAI_API_KEY"),
     base_url="https://api.x.ai/v1",
 )
 
