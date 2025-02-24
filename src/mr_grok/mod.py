@@ -36,8 +36,8 @@ async def stream_chat(model, messages=[], context=None, num_ctx=200000,
         
         #if model:
         #    model_name = model
-        #model_name = "grok-2"
-        model_name = "grok-beta"
+        model_name = "grok-2"
+        #model_name = "grok-beta"
         # look at the last message and the one before that
         # if the role of both of them is the same
         # this is not valid
